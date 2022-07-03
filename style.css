@@ -28,6 +28,7 @@ h2 {
 }
 
 #directionSelect {
+    background-color: white;
     width: 35%;
     border-radius: 20px 0px 0px 20px;
     outline: none;
@@ -79,28 +80,19 @@ h2 {
     padding: 20px;
 }
 
-.inputElement {
-    width: 35%;
-    border-radius: 20px 0px 0px 20px;
-    outline: none;
-    border: none;
-    padding: 15px 20px;
-    font: 300 15px 'Raleway', sans-serif;
-}
-
 #directionBtn {
     cursor: pointer;
     outline: none;
     border: none;
     padding: 15px 20px;
     border-radius: 0px 20px 20px 0px;
-    background-color: #b6fbe7;
+    background-color: rgb(182, 251, 231);
     color: #333;
     font: 300 15px 'Raleway', sans-serif;
 }
 
 .copy {
-    background-color: azure;
+    background-color: rgb(240, 250, 250);
     border: 1px solid #555;
     width: 50%;
     display: flex;
