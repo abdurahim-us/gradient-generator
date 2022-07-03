@@ -3,7 +3,6 @@ var form = document.querySelector('#firstForm');
 var directionBtn = document.querySelector('#directionBtn');
 var directionSelect = document.querySelector('#directionSelect');
 
-var direction = document.querySelector('[name="direction"]');
 var color1 = document.querySelector('[name="color1"]');
 var color2 = document.querySelector('[name="color2"]');
 
@@ -33,8 +32,6 @@ function firstPageLoad() {
         var selectValue = directionSelect.value;
         if(selectValue.length > 0){
             store = [selectValue];
-            // store = [direction.value];
-            // direction.value = '';
             var xa = directionCheck(event);
             setGradient(xa);
         } else {
@@ -48,7 +45,6 @@ function firstPageLoad() {
             directionIndicatorText(x)
             return x
         } else {
-            direction.value = '';
             directionIndicatorText('to right')
             return 'to right'
         }
