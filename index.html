@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body id="body">
+    <div class="container">
+        <h1>Gradient Generator</h1>
+    <div class="formDiv" >
+        <form id="firstForm">
+            <!-- <input type="text" class="inputElement" name="direction" placeholder="Set a direction"> -->
+            <select name="directionSelect" id="directionSelect">
+                <option value="to right">to right</option>
+                <option value="to left">to left</option>
+                <option value="to top">to top</option>
+                <option value="to bottom">to bottom</option>
+                <option value="to right top">to right top</option>
+                <option value="to right bottom">to right bottom</option>
+                <option value="to left top">to left top</option>
+                <option value="to left bottom">to left bottom</option>
+            </select>
+            <button id="directionBtn">Apply</button>
+        </form>
+    </div>
+    <div class="colorCont">
+        <input class="color color1" type="color" name="color1" value="#46bbe2">
+        <p class="directionIndicator"></p>
+        <input class="color color2" type="color" name="color2" value="#775588">
+    </div>
+    <h2>Current Css Background</h2>
+    <div class="copy">
+        <p title="copy to clipboard" class="gradient_code"></p>
+        <button class="copyButton">
+            <img class="copyImg" src="./images/copy2.png" alt="copy button">
+        </button>
+    </div>
+    <footer class="footer"><a href="https://www.flaticon.com/free-icons/copy" title="copy icons">Copy icons created by Freepik - Flaticon</a></footer>
+    </div>
+    <div class="fullView"><img class="fullViewImg" src="" alt=""></div>
+    <script src="index.js"></script>
+</body>
+</html>

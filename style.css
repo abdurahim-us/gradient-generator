@@ -1,0 +1,146 @@
+body {
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font: 'Raleway', sans-serif;
+    color: rgba(0,0,0, .5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+}
+
+h1 {
+    font: 600 3.5em 'Raleway', sans-serif;
+    color: rgba(0,0,0, .5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    width: 100%;
+}
+
+h2 {
+    font: 600 1.5em 'Raleway', sans-serif; 
+}
+
+#directionSelect {
+    width: 35%;
+    border-radius: 20px 0px 0px 20px;
+    outline: none;
+    border: none;
+    padding: 15px 20px;
+    font: 300 15px 'Raleway', sans-serif;
+}
+
+.colorCont {
+    display: flex;
+    align-items: center;
+}
+
+.color {
+    border: none;
+    background-color: transparent;
+    width: 5em;
+    height: 5em;
+}
+
+.color::-webkit-color-swatch {
+    border-radius: 10px;
+    border: #ffffff99 1px solid;
+}
+
+.formDiv {
+    width: 100%;
+}
+
+.directionIndicator {
+    font: 300 15px 'Raleway', sans-serif;
+    line-height: 1px;
+    letter-spacing: 1px;
+    padding: 0 15px;
+}
+
+.gradient_code {
+    font: 900 1em 'Raleway', sans-serif;
+    color: rgba(0,0,0, .5);
+    text-align: center;
+    text-transform: none;
+    letter-spacing: 0.01em;
+    cursor: pointer;
+}
+
+#firstForm {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.inputElement {
+    width: 35%;
+    border-radius: 20px 0px 0px 20px;
+    outline: none;
+    border: none;
+    padding: 15px 20px;
+    font: 300 15px 'Raleway', sans-serif;
+}
+
+#directionBtn {
+    cursor: pointer;
+    outline: none;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 0px 20px 20px 0px;
+    background-color: #b6fbe7;
+    color: #333;
+    font: 300 15px 'Raleway', sans-serif;
+}
+
+.copy {
+    background-color: azure;
+    border: 1px solid #555;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.copyButton {
+    margin-left: 10px;
+    background: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.copyImg {
+    width: 30px;
+    height: 30px;
+}
+
+.fullView {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    border: #ffffff99 1px solid;
+    border-radius: 5px;
+    background-color: rgb(3, 99, 188);
+}
+
+.fullViewImg {
+    cursor: pointer;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #55555588;
+    font: 400 .7em 'Raleway', sans-serif;
+}
