@@ -13,7 +13,7 @@ var copyButton = document.querySelector('.copyButton');
 var container = document.querySelector('.container')
 var fullView = document.querySelector('.fullView');
 
-function firstPageLoad() {
+(function firstPageLoad() {
     body.style.background = 
     `linear-gradient(to right, 
         ${color1.value}, 
@@ -22,8 +22,7 @@ function firstPageLoad() {
         fullViewImg.src = './images/full-screen.png'
         directionIndicatorText('to right')
         gradientCode.textContent = body.style.background
-    }
-    firstPageLoad();
+    })();
     
     var store = [];
     
