@@ -1,4 +1,4 @@
-# gradient-generator
+# generate-good-gradient
 Generate vibrant linear-gradients
 
 website link:
